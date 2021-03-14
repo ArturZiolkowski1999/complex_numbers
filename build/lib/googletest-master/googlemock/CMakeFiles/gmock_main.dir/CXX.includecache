@@ -530,13 +530,13 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/artur/cpp_projekty/comlex_number/lib/googletest-master/googlemock/src/gmock_main.cc
+/home/artur/cpp_projekty/complex_number/lib/googletest-master/googlemock/src/gmock_main.cc
 iostream
 -
 gmock/gmock.h
-/home/artur/cpp_projekty/comlex_number/lib/googletest-master/googlemock/src/gmock/gmock.h
+/home/artur/cpp_projekty/complex_number/lib/googletest-master/googlemock/src/gmock/gmock.h
 gtest/gtest.h
-/home/artur/cpp_projekty/comlex_number/lib/googletest-master/googlemock/src/gtest/gtest.h
+/home/artur/cpp_projekty/complex_number/lib/googletest-master/googlemock/src/gtest/gtest.h
 tchar.h
 -
 

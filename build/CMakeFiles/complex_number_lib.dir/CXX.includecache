@@ -10,9 +10,9 @@
 iostream
 -
 
-/home/artur/cpp_projekty/comlex_number/src/main.cpp
+/home/artur/cpp_projekty/complex_number/src/ComplexNumber.cpp
+ComplexNumber.h
+/home/artur/cpp_projekty/complex_number/src/ComplexNumber.h
 iostream
 -
-ComplexNumber.h
-/home/artur/cpp_projekty/comlex_number/src/ComplexNumber.h
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/artur/cpp_projekty/comlex_number/lib/googletest-master
+# Install script for directory: /home/artur/cpp_projekty/complex_number/lib/googletest-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/artur/cpp_projekty/comlex_number/build/lib/googletest-master/googlemock/cmake_install.cmake")
+  include("/home/artur/cpp_projekty/complex_number/build/lib/googletest-master/googlemock/cmake_install.cmake")
 
 endif()
 

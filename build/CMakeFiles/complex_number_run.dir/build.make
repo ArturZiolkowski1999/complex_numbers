@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/artur/cpp_projekty/comlex_number
+CMAKE_SOURCE_DIR = /home/artur/cpp_projekty/complex_number
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/artur/cpp_projekty/comlex_number/build
+CMAKE_BINARY_DIR = /home/artur/cpp_projekty/complex_number/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/complex_number_run.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/complex_number_run.dir/flags.make
 
 CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.o: CMakeFiles/complex_number_run.dir/flags.make
 CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.o: ../src/ComplexNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artur/cpp_projekty/comlex_number/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.o -c /home/artur/cpp_projekty/comlex_number/src/ComplexNumber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artur/cpp_projekty/complex_number/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.o -c /home/artur/cpp_projekty/complex_number/src/ComplexNumber.cpp
 
 CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artur/cpp_projekty/comlex_number/src/ComplexNumber.cpp > CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artur/cpp_projekty/complex_number/src/ComplexNumber.cpp > CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.i
 
 CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artur/cpp_projekty/comlex_number/src/ComplexNumber.cpp -o CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artur/cpp_projekty/complex_number/src/ComplexNumber.cpp -o CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.s
 
 CMakeFiles/complex_number_run.dir/src/main.cpp.o: CMakeFiles/complex_number_run.dir/flags.make
 CMakeFiles/complex_number_run.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artur/cpp_projekty/comlex_number/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/complex_number_run.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/complex_number_run.dir/src/main.cpp.o -c /home/artur/cpp_projekty/comlex_number/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artur/cpp_projekty/complex_number/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/complex_number_run.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/complex_number_run.dir/src/main.cpp.o -c /home/artur/cpp_projekty/complex_number/src/main.cpp
 
 CMakeFiles/complex_number_run.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/complex_number_run.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artur/cpp_projekty/comlex_number/src/main.cpp > CMakeFiles/complex_number_run.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artur/cpp_projekty/complex_number/src/main.cpp > CMakeFiles/complex_number_run.dir/src/main.cpp.i
 
 CMakeFiles/complex_number_run.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/complex_number_run.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artur/cpp_projekty/comlex_number/src/main.cpp -o CMakeFiles/complex_number_run.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artur/cpp_projekty/complex_number/src/main.cpp -o CMakeFiles/complex_number_run.dir/src/main.cpp.s
 
 # Object files for target complex_number_run
 complex_number_run_OBJECTS = \
@@ -95,7 +95,7 @@ complex_number_run: CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.o
 complex_number_run: CMakeFiles/complex_number_run.dir/src/main.cpp.o
 complex_number_run: CMakeFiles/complex_number_run.dir/build.make
 complex_number_run: CMakeFiles/complex_number_run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artur/cpp_projekty/comlex_number/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable complex_number_run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artur/cpp_projekty/complex_number/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable complex_number_run"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/complex_number_run.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/complex_number_run.dir/clean:
 .PHONY : CMakeFiles/complex_number_run.dir/clean
 
 CMakeFiles/complex_number_run.dir/depend:
-	cd /home/artur/cpp_projekty/comlex_number/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/artur/cpp_projekty/comlex_number /home/artur/cpp_projekty/comlex_number /home/artur/cpp_projekty/comlex_number/build /home/artur/cpp_projekty/comlex_number/build /home/artur/cpp_projekty/comlex_number/build/CMakeFiles/complex_number_run.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/artur/cpp_projekty/complex_number/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/artur/cpp_projekty/complex_number /home/artur/cpp_projekty/complex_number /home/artur/cpp_projekty/complex_number/build /home/artur/cpp_projekty/complex_number/build /home/artur/cpp_projekty/complex_number/build/CMakeFiles/complex_number_run.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/complex_number_run.dir/depend
 

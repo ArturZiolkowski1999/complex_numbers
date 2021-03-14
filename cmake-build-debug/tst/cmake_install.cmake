@@ -1,4 +1,4 @@
-# Install script for directory: /home/artur/cpp_projekty/comlex_number/tst
+# Install script for directory: /home/artur/cpp_projekty/complex_number/tst
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

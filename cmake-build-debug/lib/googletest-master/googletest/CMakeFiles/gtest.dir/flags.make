@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTH
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/artur/cpp_projekty/comlex_number/lib/googletest-master/googletest/include -I/home/artur/cpp_projekty/comlex_number/lib/googletest-master/googletest 
+CXX_INCLUDES = -I/home/artur/cpp_projekty/complex_number/lib/googletest-master/googletest/include -I/home/artur/cpp_projekty/complex_number/lib/googletest-master/googletest 
 

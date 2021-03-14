@@ -23,7 +23,7 @@ tst/CMakeFiles/complex_number_tst.dir/Formula-test.cpp.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- /home/artur/cpp_projekty/comlex_number/tst/Formula-test.cpp
+ /home/artur/cpp_projekty/complex_number/tst/Formula-test.cpp
 tst/CMakeFiles/complex_number_tst.dir/main.cpp.o
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-matchers.h
@@ -45,4 +45,4 @@ tst/CMakeFiles/complex_number_tst.dir/main.cpp.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- /home/artur/cpp_projekty/comlex_number/tst/main.cpp
+ /home/artur/cpp_projekty/complex_number/tst/main.cpp

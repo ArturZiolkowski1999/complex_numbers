@@ -21,7 +21,6 @@ public:
     friend bool operator==(const ComplexNumber &complexObject1, const ComplexNumber &complexObject2);
     friend std::ostream & operator<<(std::ostream &os, const ComplexNumber &complexObject);
     friend std::istream & operator>>(std::istream &ist, ComplexNumber &complexObject);
-
 };
 
 #endif //COMPLEXNUMBER_COMPLEXNUMBERS_H

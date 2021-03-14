@@ -73,11 +73,30 @@ ComplexNumber ComplexNumber::operator/(const ComplexNumber &complexObject) {
 }
 
 std::ostream &operator<<(std::ostream &os, const ComplexNumber &complexObject) {
-    if(complexObject.Imaginary < 0){
-        os << "(" << complexObject.Real << complexObject.Imaginary << "i)";
+
+    if(complexObject.Real == 0){
+        if(complexObject.Imaginary == 1){
+            os << "(i)";
+        } else if(complexObject.Imaginary == -1){
+            os <<"(-i)";
+        }else{
+            os << "(" << complexObject.Imaginary << "i)";
+        }
+
     }else{
-        os << "(" << complexObject.Real << "+" << complexObject.Imaginary << "i)";
+        if(complexObject.Imaginary < 0 && complexObject.Imaginary != 1 && complexObject.Imaginary != -1){
+            os << "(" << complexObject.Real << complexObject.Imaginary << "i)";
+        }else if(complexObject.Imaginary > 0 && complexObject.Imaginary != 1 && complexObject.Imaginary != -1){
+            os << "(" << complexObject.Real << "+" << complexObject.Imaginary << "i)";
+        }else if(complexObject.Imaginary == 0){
+            os << "(" << complexObject.Real << ")";
+        }else if(complexObject.Imaginary == 1){
+            os << "(" << complexObject.Real << "+" << "i" << ")";
+        }else if(complexObject.Imaginary == -1){
+            os << "(" << complexObject.Real << "-" << "i" << ")";
+        }
     }
+
     return os;
 }
 
@@ -86,10 +105,85 @@ std::istream &operator>>(std::istream &ist, ComplexNumber &complexObject) {
     double real, imaginary;
     char oper, i, bra, ket;
 
-    ist >> bra >> real >> oper >> imaginary >> i >> ket;
-    if ((bra != '(') || (ket != ')') || (i != 'i')|| ((oper != '-') && (oper != '+'))){
+    if(ist.peek() != '('){
         throw std::invalid_argument("unknown argument");
     }
+    ist >> bra ;
+    if(ist.peek() == 'i'){ /* (-i)  (i) type */
+        ist >> i;
+        if (ist.peek() == ')'){
+            complexObject.Real = 0;
+            complexObject.Imaginary = 1;
+            return ist;
+        }else{
+            throw std::invalid_argument("unknown argument");
+        }
+
+    }else if(ist.peek() == '-'){
+        std::cout<<"im1\n";
+        ist >> i;
+        if(ist.peek() == 'i'){
+            std::cout<<"im2\n";
+            ist >> i;
+            if(ist.peek() == ')'){
+                std::cout<<"im3\n";
+                complexObject.Real = 0;
+                complexObject.Imaginary = -1;
+                return ist;
+            }else{
+                std::cout<<"im4\n";
+                throw std::invalid_argument("unknown argument");
+            }
+        }else{
+            std::cout<<"im5\n";
+            ist.putback(i);
+        }
+    }
+    ist >> real;
+    if(ist.peek() != '-' && ist.peek() != '+'){     /* (2) type imput*/
+        if(ist.peek() == ')'){
+            complexObject.Real = real;
+            complexObject.Imaginary = 0;
+            return ist;
+        }
+        if(ist.peek() == 'i'){      /* (2i) type imput*/
+            ist >> i;
+            if(ist.peek() == ')'){
+                complexObject.Real = 0;
+                complexObject.Imaginary = real;
+                return ist;
+            }
+
+        }
+        throw std::invalid_argument("unknown argument");
+    }
+    ist >> oper;
+    if(ist.peek() == 'i') { /* (1+i) (1-i) type */
+        ist >> i;
+        if (ist.peek() == ')') {
+            complexObject.Real = real;
+            if(oper == '-'){
+                complexObject.Imaginary = -1;
+            }else if(oper == '+'){
+                complexObject.Imaginary = 1;
+            }
+            return ist;
+        } else {
+            throw std::invalid_argument("unknown argument");
+
+        }
+    }
+    ist >> imaginary;
+    if(ist.peek() != 'i'){
+        throw std::invalid_argument("unknown argument");
+    }
+    ist >> i;
+    if(ist.peek() != ')'){
+        throw std::invalid_argument("unknown argument");
+    }
+    ist >> ket;
+
+
     if(oper == '-'){
         complexObject.Real = real;
         complexObject.Imaginary = imaginary * (-1);
@@ -100,5 +194,7 @@ std::istream &operator>>(std::istream &ist, ComplexNumber &complexObject) {
 
     return ist;
 }
+
+
 
 

@@ -606,17 +606,17 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/artur/cpp_projekty/comlex_number/lib/googletest-master/googlemock/src/gmock-all.cc
+/home/artur/cpp_projekty/complex_number/lib/googletest-master/googlemock/src/gmock-all.cc
 gmock/gmock.h
-/home/artur/cpp_projekty/comlex_number/lib/googletest-master/googlemock/src/gmock/gmock.h
+/home/artur/cpp_projekty/complex_number/lib/googletest-master/googlemock/src/gmock/gmock.h
 src/gmock-cardinalities.cc
-/home/artur/cpp_projekty/comlex_number/lib/googletest-master/googlemock/src/src/gmock-cardinalities.cc
+/home/artur/cpp_projekty/complex_number/lib/googletest-master/googlemock/src/src/gmock-cardinalities.cc
 src/gmock-internal-utils.cc
-/home/artur/cpp_projekty/comlex_number/lib/googletest-master/googlemock/src/src/gmock-internal-utils.cc
+/home/artur/cpp_projekty/complex_number/lib/googletest-master/googlemock/src/src/gmock-internal-utils.cc
 src/gmock-matchers.cc
-/home/artur/cpp_projekty/comlex_number/lib/googletest-master/googlemock/src/src/gmock-matchers.cc
+/home/artur/cpp_projekty/complex_number/lib/googletest-master/googlemock/src/src/gmock-matchers.cc
 src/gmock-spec-builders.cc
-/home/artur/cpp_projekty/comlex_number/lib/googletest-master/googlemock/src/src/gmock-spec-builders.cc
+/home/artur/cpp_projekty/complex_number/lib/googletest-master/googlemock/src/src/gmock-spec-builders.cc
 src/gmock.cc
-/home/artur/cpp_projekty/comlex_number/lib/googletest-master/googlemock/src/src/gmock.cc
+/home/artur/cpp_projekty/complex_number/lib/googletest-master/googlemock/src/src/gmock.cc
 

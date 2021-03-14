@@ -3,7 +3,7 @@
 
 CMakeFiles/complex_number_run.dir/src/ComplexNumber.cpp.o
  ../inc/ComplexNumber.h
- /home/artur/cpp_projekty/comlex_number/src/ComplexNumber.cpp
+ /home/artur/cpp_projekty/complex_number/src/ComplexNumber.cpp
 CMakeFiles/complex_number_run.dir/src/main.cpp.o
  ../inc/ComplexNumber.h
- /home/artur/cpp_projekty/comlex_number/src/main.cpp
+ /home/artur/cpp_projekty/complex_number/src/main.cpp

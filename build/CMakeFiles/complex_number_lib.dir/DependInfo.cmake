@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/artur/cpp_projekty/comlex_number/src/ComplexNumber.cpp" "/home/artur/cpp_projekty/comlex_number/build/CMakeFiles/complex_number_lib.dir/src/ComplexNumber.cpp.o"
-  "/home/artur/cpp_projekty/comlex_number/src/main.cpp" "/home/artur/cpp_projekty/comlex_number/build/CMakeFiles/complex_number_lib.dir/src/main.cpp.o"
+  "/home/artur/cpp_projekty/complex_number/src/ComplexNumber.cpp" "/home/artur/cpp_projekty/complex_number/build/CMakeFiles/complex_number_lib.dir/src/ComplexNumber.cpp.o"
+  "/home/artur/cpp_projekty/complex_number/src/main.cpp" "/home/artur/cpp_projekty/complex_number/build/CMakeFiles/complex_number_lib.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

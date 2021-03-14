@@ -68,10 +68,10 @@ RM = /home/artur/clion-2020.3.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/artur/cpp_projekty/comlex_number
+CMAKE_SOURCE_DIR = /home/artur/cpp_projekty/complex_number
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/artur/cpp_projekty/comlex_number/cmake-build-debug
+CMAKE_BINARY_DIR = /home/artur/cpp_projekty/complex_number/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -146,14 +146,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/artur/cpp_projekty/comlex_number/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/artur/cpp_projekty/comlex_number/cmake-build-debug/CMakeFiles /home/artur/cpp_projekty/comlex_number/cmake-build-debug/tst/CMakeFiles/progress.marks
-	cd /home/artur/cpp_projekty/comlex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/artur/cpp_projekty/comlex_number/cmake-build-debug/CMakeFiles 0
+	cd /home/artur/cpp_projekty/complex_number/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/artur/cpp_projekty/complex_number/cmake-build-debug/CMakeFiles /home/artur/cpp_projekty/complex_number/cmake-build-debug/tst/CMakeFiles/progress.marks
+	cd /home/artur/cpp_projekty/complex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/artur/cpp_projekty/complex_number/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/artur/cpp_projekty/comlex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/clean
+	cd /home/artur/cpp_projekty/complex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/clean
 .PHONY : clean
 
 # The main clean target
@@ -163,22 +163,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/artur/cpp_projekty/comlex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/preinstall
+	cd /home/artur/cpp_projekty/complex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/artur/cpp_projekty/comlex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/preinstall
+	cd /home/artur/cpp_projekty/complex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/artur/cpp_projekty/comlex_number/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/artur/cpp_projekty/complex_number/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tst/CMakeFiles/complex_number_tst.dir/rule:
-	cd /home/artur/cpp_projekty/comlex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/CMakeFiles/complex_number_tst.dir/rule
+	cd /home/artur/cpp_projekty/complex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tst/CMakeFiles/complex_number_tst.dir/rule
 .PHONY : tst/CMakeFiles/complex_number_tst.dir/rule
 
 # Convenience name for target.
@@ -188,7 +188,7 @@ complex_number_tst: tst/CMakeFiles/complex_number_tst.dir/rule
 
 # fast build rule for target.
 complex_number_tst/fast:
-	cd /home/artur/cpp_projekty/comlex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/complex_number_tst.dir/build.make tst/CMakeFiles/complex_number_tst.dir/build
+	cd /home/artur/cpp_projekty/complex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/complex_number_tst.dir/build.make tst/CMakeFiles/complex_number_tst.dir/build
 .PHONY : complex_number_tst/fast
 
 Formula-test.o: Formula-test.cpp.o
@@ -197,7 +197,7 @@ Formula-test.o: Formula-test.cpp.o
 
 # target to build an object file
 Formula-test.cpp.o:
-	cd /home/artur/cpp_projekty/comlex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/complex_number_tst.dir/build.make tst/CMakeFiles/complex_number_tst.dir/Formula-test.cpp.o
+	cd /home/artur/cpp_projekty/complex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/complex_number_tst.dir/build.make tst/CMakeFiles/complex_number_tst.dir/Formula-test.cpp.o
 .PHONY : Formula-test.cpp.o
 
 Formula-test.i: Formula-test.cpp.i
@@ -206,7 +206,7 @@ Formula-test.i: Formula-test.cpp.i
 
 # target to preprocess a source file
 Formula-test.cpp.i:
-	cd /home/artur/cpp_projekty/comlex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/complex_number_tst.dir/build.make tst/CMakeFiles/complex_number_tst.dir/Formula-test.cpp.i
+	cd /home/artur/cpp_projekty/complex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/complex_number_tst.dir/build.make tst/CMakeFiles/complex_number_tst.dir/Formula-test.cpp.i
 .PHONY : Formula-test.cpp.i
 
 Formula-test.s: Formula-test.cpp.s
@@ -215,7 +215,7 @@ Formula-test.s: Formula-test.cpp.s
 
 # target to generate assembly for a file
 Formula-test.cpp.s:
-	cd /home/artur/cpp_projekty/comlex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/complex_number_tst.dir/build.make tst/CMakeFiles/complex_number_tst.dir/Formula-test.cpp.s
+	cd /home/artur/cpp_projekty/complex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/complex_number_tst.dir/build.make tst/CMakeFiles/complex_number_tst.dir/Formula-test.cpp.s
 .PHONY : Formula-test.cpp.s
 
 main.o: main.cpp.o
@@ -224,7 +224,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/artur/cpp_projekty/comlex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/complex_number_tst.dir/build.make tst/CMakeFiles/complex_number_tst.dir/main.cpp.o
+	cd /home/artur/cpp_projekty/complex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/complex_number_tst.dir/build.make tst/CMakeFiles/complex_number_tst.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -233,7 +233,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/artur/cpp_projekty/comlex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/complex_number_tst.dir/build.make tst/CMakeFiles/complex_number_tst.dir/main.cpp.i
+	cd /home/artur/cpp_projekty/complex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/complex_number_tst.dir/build.make tst/CMakeFiles/complex_number_tst.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -242,7 +242,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/artur/cpp_projekty/comlex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/complex_number_tst.dir/build.make tst/CMakeFiles/complex_number_tst.dir/main.cpp.s
+	cd /home/artur/cpp_projekty/complex_number/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst/CMakeFiles/complex_number_tst.dir/build.make tst/CMakeFiles/complex_number_tst.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -275,6 +275,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/artur/cpp_projekty/comlex_number/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/artur/cpp_projekty/complex_number/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
