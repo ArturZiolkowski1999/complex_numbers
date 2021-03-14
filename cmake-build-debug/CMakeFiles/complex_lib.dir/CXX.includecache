@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/Formula.h
+
+/home/artur/cpp_projekty/comlex_number/src/Formula.cpp
+Formula.h
+/home/artur/cpp_projekty/comlex_number/src/Formula.h
+
+/home/artur/cpp_projekty/comlex_number/src/main.cpp
+iostream
+-
+Formula.h
+/home/artur/cpp_projekty/comlex_number/src/Formula.h
+
